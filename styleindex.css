@@ -1,0 +1,75 @@
+#tela{
+    width: 350px;
+    height: 550px;
+    background-color: white;
+ 
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 6px;
+   
+
+   
+ 
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 70px;
+    padding-top: 40px;
+}
+
+#email{
+  margin-bottom: 20px;
+  color: rgb(182, 179, 179) ;
+  border: none;
+  border-bottom:  rgb(182, 179, 179)solid 2px;
+    outline: none;
+    padding: 20px;
+}
+
+#senha{
+    margin-bottom: 30px;
+    padding: 20px;
+    color:  rgb(182, 179, 179);
+    border: none;
+    border-bottom: rgb(182, 179, 179) solid 2px;
+    outline: none;
+}
+body{
+
+background: linear-gradient(to bottom, #5FAAE3,#ABACE3) ;
+
+margin: 0;
+padding: 0;
+display: flex; /* Usando flexbox para centralizar */
+justify-content: center; /* Centraliza horizontalmente */
+align-items: center; /* Centraliza verticalmente */
+height: 100vh; /* Faz o corpo ocupar toda a altura da janela */
+
+
+}
+
+.botao{
+    margin-bottom: 30px;
+    padding: 10px 90px;
+   color: white;
+   background: linear-gradient(to bottom, #5FAAE3,#ABACE3) ;
+   border: none;
+    
+}
+
+h3{
+    color:  rgb(182, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+}
+
+h2{ color:  rgb(182, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;}
+
+.destaque{
+    color: #5FAAE3;
+}
